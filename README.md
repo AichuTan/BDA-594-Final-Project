@@ -111,15 +111,15 @@ Looking ahead, we believe that progress can be achieved through nontraditional s
 
 **Bibliography** :books:
 
-[Lee, Jennifer J., and Annie Smith. “Regulating Wage Theft.” *Washington Law Review*, vol. 94, no. 2, June 2019, pp. 759–822.]
-(https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)
+Lee, Jennifer J., and Annie Smith. “Regulating Wage Theft.” *Washington Law Review*, vol. 94, no. 2, June 2019, pp. 759–822.
+[](https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)
 
-[Mangundayao, Ihna, et al. “More than $3 Billion in Stolen Wages Recovered for Workers Between 2017 and 2020”. *Economic Policy Institute*, 22 Dec. 2021.] (https://www.epi.org/publication/wage-theft-2021/)
+Mangundayao, Ihna, et al. “More than $3 Billion in Stolen Wages Recovered for Workers Between 2017 and 2020”. *Economic Policy Institute*, 22 Dec. 2021.[](https://www.epi.org/publication/wage-theft-2021/)
 
-[Galvin, D. J. (2016). “Deterring wage theft: Alt-labor, state politics, and the policy determinants of minimum wage compliance”. *Perspectives on Politics*, 14(2), 324-350. ](https://doi.org/10.1017/S1537592716000050)
+Galvin, D. J. (2016). “Deterring wage theft: Alt-labor, state politics, and the policy determinants of minimum wage compliance”. *Perspectives on Politics*, 14(2), 324-350. [](https://doi.org/10.1017/S1537592716000050)
 
-[Green, Llezlie L. "Wage Theft in Lawless Courts." California Law Review, vol. 107, no. 4, Aug. 2019, pp. 1303. ](https://doi.org/10.15779/Z38FF3M08W.)
+Green, Llezlie L. "Wage Theft in Lawless Courts." California Law Review, vol. 107, no. 4, Aug. 2019, pp. 1303. [](https://doi.org/10.15779/Z38FF3M08W.)
 
-[San Diego State University Department of Sociology, Center on Policy Initiative, and Employee Rights Center. "Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego." 2017.](https://ccre.sdsu.edu/_resources/docs/reports/labor/Confronting-Wage-Theft.pdf)
+San Diego State University Department of Sociology, Center on Policy Initiative, and Employee Rights Center. "Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego." 2017.[](https://ccre.sdsu.edu/_resources/docs/reports/labor/Confronting-Wage-Theft.pdf)
 
-["Time Series Analysis-ARIMA Model using R software: A step by step approach." *YouTube*, uploaded by Simple SPSS, 30 Mar. 2020, ](www.youtube.com/watch?v=VPhyVSJMbpA)
+"Time Series Analysis-ARIMA Model using R software: A step by step approach." *YouTube*, uploaded by Simple SPSS, 30 Mar. 2020, [](www.youtube.com/watch?v=VPhyVSJMbpA)
