@@ -92,7 +92,7 @@ These two industries also reported the highest amounts of minimum wage violation
 
 <img src = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/Fig6.jpg />
 
-##### 4.5 Wage Theft Cases by Employer Locations
+##### 4.5 Wage Theft Cases by Employer Locations :round_pushpin:
 This map shows the distribution of Wage Theft Cases by Employer Locations from 2011 to 2016. We used the information in the 'defendant_address' field, which contains Zipcode data. By extracting the Zipcode using the RIGHT() function in Tableau, we created a new field called 'defendant_zipcode.' After removing an uncategorized location that could not be mapped in Tableau, we produced [an interactive visualization map](https://public.tableau.com/views/WageTheftCasesbyEmployerLocations/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that allows filtering wage theft cases by year, industry category, employer name, and the verified wage amount collected.
 From the visualization map, we observed that employers involved in wage theft cases in San Diego were spread throughout the United States, not limited to the San Diego area. This finding emphasizes that wage theft occurred across various sectors nationwide.
 
@@ -109,7 +109,7 @@ In conclusion, our analysis highlights the need for a restructuring or reform of
 Looking ahead, we believe that progress can be achieved through nontraditional strategies, as highlighted in the Regulating Wage Theft report. This includes collaborating with workers and community groups to address the flaws in the current system. Additionally, there is a clear need to create protections for workers who are more vulnerable to labor exploitation by implementing stronger employer regulations.
 
 
-**Bibliography:books:**
+**Bibliography** :books:
 
 [Lee, Jennifer J., and Annie Smith. “Regulating Wage Theft.” *Washington Law Review*, vol. 94, no. 2, June 2019, pp. 759–822.]
 (https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)
