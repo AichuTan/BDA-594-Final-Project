@@ -1,5 +1,7 @@
 ## Anti-Wage Theft Data Project
 
+<src img = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/cover.jpg/>
+  
 #### Team members and assigned tasks:
 - Lyn Ngoc: data analysis, compiling report
 - Aichu Tan: data cleaning and data analysis
