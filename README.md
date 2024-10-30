@@ -3,24 +3,24 @@
 <img src = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/cover.jpg />
   
 #### Team members and assigned tasks:
-- :pushpin:Lyn Ngoc: data analysis, compiling report
-- :pushpin:Aichu Tan: data cleaning and data analysis
-- :pushpin:Pilar de Haro: data cleaning, data analysis, literature reviews and compiling report
-- :pushpin:Eddie Rosas: Website and Video
+- :pushpin::pushpin::pushpin:Lyn Ngoc: data analysis, compiling report
+- :pushpin::pushpin::pushpin:Aichu Tan: data cleaning and data analysis
+- :pushpin::pushpin::pushpin:Pilar de Haro: data cleaning, data analysis, literature reviews and compiling report
+- :pushpin::pushpin::pushpin:Eddie Rosas: Website and Video
 
 **Report link :** :point_right:[here](https://sites.google.com/sdsu.edu/wagetheft/home?authuser=1)
 
 **Video link :** :point_right:[here](https://www.youtube.com/watch?v=JLkuwMMDtyE)
 
 
-#### 1. Problem Statement :bookmark_tabs:
+#### 1. Problem Statement :bookmark_tabs::bookmark_tabs::bookmark_tabs:
 
 Wage theft is a pervasive and troubling issue in the U.S., affecting millions of workers and costing billions in unpaid wages each year. The [Economic Policy Institute](https://www.epi.org/publication/wage-theft-2021/) reports that from 2017 to 2020, over $3 billion was recovered through various channels, yet this represents only a fraction of the total wage theft that occurs, as many cases go unreported or unresolved. In Los Angeles alone, wage theft is estimated at $1.4 billion annually, with only 17% of workers who win cases actually receiving the wages owed to them. Industries like construction, food service, and retail are especially affected, with low-wage and immigrant workers being the most vulnerable (Mangundayao et al.).
 
 Understanding the wage theft claims process is essential to advocating for workers' rights and helping individuals recover lost earnings. This project aims to reveal the issues within the wage claims recovery process by pointing out the patterns and trends in wage claim cases across
 various industries, and predicting the duration of the wage claim process. Using time-series modeling and exploratory data analysis, the research will address critical questions, including the average time it took from filing a claim to a hearing and closing a claim, the rate of retrieving stolen wages, and trends by industries.
 
-#### 2. Literature Review :open_book:
+#### 2. Literature Review :open_book::open_book::open_book:
 ##### 2.1 Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego
 
 This 2017 study by the San Diego State University Department of Sociology, the Center on Policy Initiative, and the Employee Rights Center of San Diego examines the challenges San Diego workers face when trying to recover their stolen wages through the wage claim process with the Labor commissioner’s office in San Diego. The study surveyed 305 workers who were in the process of filing or had filed a claim of wage theft, conducted 30 additional in-depth interviews with workers and analyzed data obtained from the labor commissioner's office. Because we are using the same data source, it was important for us to compare our findings with these trends and understand the context found in this study.
@@ -36,7 +36,7 @@ Some of the traditional approaches found in “authorizing worker complaints” 
 
 This analysis makes the point that we must look beyond government regulation through collaboration with workers, and community groups to improve the wage claim process and reduce wage theft. These solutions also extend to allowing workers to make anonymous complaints, making it less risky for the worker who may be threatened by retaliation, and other forms of labor abuse. Also, placing more regulation on high-risk employers by requiring them to provide a wage bond in order to operate their business, and submit a wage report to the agency. Both of these employer regulations could help the investigation and recoup workers owed wages.
 
-##### 2.3 Unpaid & Unaware :moneybag:
+##### 2.3 Unpaid & Unaware :moneybag::moneybag::moneybag:
 
 The San Diego State University Center for Community Research and Engagement and the Center on Policy Initiatives presented a 2024 report on wage theft in San Diego County, California, based on a survey of over 900 workers, primarily students. The report sheds light on the ongoing problem of wage theft, particularly in the food and drink/hospitality, construction, and healthcare industries. It indicates that employers in San Diego conform to broader patterns of labor law violations observed elsewhere.
 Some of the key findings in the report indicate that workers often need to be made aware of their rights and the resources available to them, such as the complaint process. The report recommends that local governments improve enforcement, disincentivize wage theft, and empower workers through education and co-enforcement initiatives.
@@ -64,7 +64,7 @@ We also discovered that out of the 6,551 verified cases where the labor commissi
 
 In R, we leveraged the dplyr library to use the filter function to filter by verified claims and other fields, the difftime function to calculate the differences between the two dates, judgment date and file date, in days. Then used the mean, median, max, min functions to find the results.
 
-##### 4.2 Forecasting the time it will take to close a wage claim file in 3 years
+##### 4.2 Forecasting the time it will take to close a wage claim file in 3 years :date::date::date:
 
 We used the forecast package and the ARIMA model in R to predict the number of days it will take for a wage claim to close in the years following 2015. The predictions are based on the duration between the filing and closing dates of a wage claim. Using data from 2011-2015 (excluding 2016 due to incomplete data), our model projected that, for the period between 2016 and 2018, the average time to close a claim would be 264 days, with a predicted range from a minimum of 62 days to a maximum of 467 days.
 
@@ -83,7 +83,7 @@ Our findings show only 35% of the total wages verified by the state have actuall
 
 We calculated this figure by summing the "amounts found due" field, then dividing it by the total “verified wages due”, and multiplying by 100 to determine the percentage of total wages that have been paid.The average amount of verified wages owed was $5,379. The largest verified amount owed was $357,198, while the smallest was $1.32.
 
-##### 4.4 Trends by Industry
+##### 4.4 Trends by Industry :chart_with_upwards_trend::chart_with_upwards_trend::chart_with_upwards_trend:
 Our analysis showed that wage claims were highly concentrated in certain industries, particularly those employing low-wage and temporary workers. However, one industry code in our dataset encompassed a variety of sectors, complicating efforts to identify the industry with the highest number of claims. This category (439: Other - chainsaw & lawn mower repair, home health care, employment agencies, non-boarding schools, cable TV) was grouped under the label "Service Industry, Education, and Media" for clearer presentation in our results. However, the second and third most affected industries were the food service sector and construction. This aligns with findings from the report Confronting Wage Theft, which also uses data from the Labor Commissioner’s office in San Diego.
 
 <img src = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/Fig5.jpg />
@@ -92,7 +92,7 @@ These two industries also reported the highest amounts of minimum wage violation
 
 <img src = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/Fig6.jpg />
 
-##### 4.5 Wage Theft Cases by Employer Locations :round_pushpin:
+##### 4.5 Wage Theft Cases by Employer Locations :round_pushpin::round_pushpin::round_pushpin:
 This map shows the distribution of Wage Theft Cases by Employer Locations from 2011 to 2016. We used the information in the 'defendant_address' field, which contains Zipcode data. By extracting the Zipcode using the RIGHT() function in Tableau, we created a new field called 'defendant_zipcode.' After removing an uncategorized location that could not be mapped in Tableau, we produced [an interactive visualization map](https://public.tableau.com/views/WageTheftCasesbyEmployerLocations/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) that allows filtering wage theft cases by year, industry category, employer name, and the verified wage amount collected.
 From the visualization map, we observed that employers involved in wage theft cases in San Diego were spread throughout the United States, not limited to the San Diego area. This finding emphasizes that wage theft occurred across various sectors nationwide.
 
@@ -109,17 +109,17 @@ In conclusion, our analysis highlights the need for a restructuring or reform of
 Looking ahead, we believe that progress can be achieved through nontraditional strategies, as highlighted in the Regulating Wage Theft report. This includes collaborating with workers and community groups to address the flaws in the current system. Additionally, there is a clear need to create protections for workers who are more vulnerable to labor exploitation by implementing stronger employer regulations.
 
 
-**Bibliography** :books:
+**Bibliography** :books::books::books:
 
 Lee, Jennifer J., and Annie Smith. “Regulating Wage Theft.” *Washington Law Review*, vol. 94, no. 2, June 2019, pp. 759–822.
-[](https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)
+[(https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)]
 
-Mangundayao, Ihna, et al. “More than $3 Billion in Stolen Wages Recovered for Workers Between 2017 and 2020”. *Economic Policy Institute*, 22 Dec. 2021.[](https://www.epi.org/publication/wage-theft-2021/)
+Mangundayao, Ihna, et al. “More than $3 Billion in Stolen Wages Recovered for Workers Between 2017 and 2020”. *Economic Policy Institute*, 22 Dec. 2021.[(https://www.epi.org/publication/wage-theft-2021/)]
 
-Galvin, D. J. (2016). “Deterring wage theft: Alt-labor, state politics, and the policy determinants of minimum wage compliance”. *Perspectives on Politics*, 14(2), 324-350. [](https://doi.org/10.1017/S1537592716000050)
+Galvin, D. J. (2016). “Deterring wage theft: Alt-labor, state politics, and the policy determinants of minimum wage compliance”. *Perspectives on Politics*, 14(2), 324-350. [(https://doi.org/10.1017/S1537592716000050)]
 
-Green, Llezlie L. "Wage Theft in Lawless Courts." California Law Review, vol. 107, no. 4, Aug. 2019, pp. 1303. [](https://doi.org/10.15779/Z38FF3M08W.)
+Green, Llezlie L. "Wage Theft in Lawless Courts." California Law Review, vol. 107, no. 4, Aug. 2019, pp. 1303. [(https://doi.org/10.15779/Z38FF3M08W.)]
 
-San Diego State University Department of Sociology, Center on Policy Initiative, and Employee Rights Center. "Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego." 2017.[](https://ccre.sdsu.edu/_resources/docs/reports/labor/Confronting-Wage-Theft.pdf)
+San Diego State University Department of Sociology, Center on Policy Initiative, and Employee Rights Center. "Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego." 2017.[(https://ccre.sdsu.edu/_resources/docs/reports/labor/Confronting-Wage-Theft.pdf)]
 
-"Time Series Analysis-ARIMA Model using R software: A step by step approach." *YouTube*, uploaded by Simple SPSS, 30 Mar. 2020, [](www.youtube.com/watch?v=VPhyVSJMbpA)
+"Time Series Analysis-ARIMA Model using R software: A step by step approach." *YouTube*, uploaded by Simple SPSS, 30 Mar. 2020, [(www.youtube.com/watch?v=VPhyVSJMbpA)]
