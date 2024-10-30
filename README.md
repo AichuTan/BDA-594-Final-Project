@@ -13,14 +13,14 @@
 **Video link :** :point_right:[here](https://www.youtube.com/watch?v=JLkuwMMDtyE)
 
 
-#### 1. Problem Statement
+#### 1. Problem Statement :bookmark_tabs:
 
 Wage theft is a pervasive and troubling issue in the U.S., affecting millions of workers and costing billions in unpaid wages each year. The [Economic Policy Institute](https://www.epi.org/publication/wage-theft-2021/) reports that from 2017 to 2020, over $3 billion was recovered through various channels, yet this represents only a fraction of the total wage theft that occurs, as many cases go unreported or unresolved. In Los Angeles alone, wage theft is estimated at $1.4 billion annually, with only 17% of workers who win cases actually receiving the wages owed to them. Industries like construction, food service, and retail are especially affected, with low-wage and immigrant workers being the most vulnerable (Mangundayao et al.).
 
 Understanding the wage theft claims process is essential to advocating for workers' rights and helping individuals recover lost earnings. This project aims to reveal the issues within the wage claims recovery process by pointing out the patterns and trends in wage claim cases across
 various industries, and predicting the duration of the wage claim process. Using time-series modeling and exploratory data analysis, the research will address critical questions, including the average time it took from filing a claim to a hearing and closing a claim, the rate of retrieving stolen wages, and trends by industries.
 
-#### 2. Literature Review
+#### 2. Literature Review :open_book:
 ##### 2.1 Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego
 
 This 2017 study by the San Diego State University Department of Sociology, the Center on Policy Initiative, and the Employee Rights Center of San Diego examines the challenges San Diego workers face when trying to recover their stolen wages through the wage claim process with the Labor commissioner’s office in San Diego. The study surveyed 305 workers who were in the process of filing or had filed a claim of wage theft, conducted 30 additional in-depth interviews with workers and analyzed data obtained from the labor commissioner's office. Because we are using the same data source, it was important for us to compare our findings with these trends and understand the context found in this study.
@@ -36,7 +36,7 @@ Some of the traditional approaches found in “authorizing worker complaints” 
 
 This analysis makes the point that we must look beyond government regulation through collaboration with workers, and community groups to improve the wage claim process and reduce wage theft. These solutions also extend to allowing workers to make anonymous complaints, making it less risky for the worker who may be threatened by retaliation, and other forms of labor abuse. Also, placing more regulation on high-risk employers by requiring them to provide a wage bond in order to operate their business, and submit a wage report to the agency. Both of these employer regulations could help the investigation and recoup workers owed wages.
 
-##### 2.3 Unpaid & Unaware
+##### 2.3 Unpaid & Unaware :moneybag:
 
 The San Diego State University Center for Community Research and Engagement and the Center on Policy Initiatives presented a 2024 report on wage theft in San Diego County, California, based on a survey of over 900 workers, primarily students. The report sheds light on the ongoing problem of wage theft, particularly in the food and drink/hospitality, construction, and healthcare industries. It indicates that employers in San Diego conform to broader patterns of labor law violations observed elsewhere.
 Some of the key findings in the report indicate that workers often need to be made aware of their rights and the resources available to them, such as the complaint process. The report recommends that local governments improve enforcement, disincentivize wage theft, and empower workers through education and co-enforcement initiatives.
@@ -109,7 +109,7 @@ In conclusion, our analysis highlights the need for a restructuring or reform of
 Looking ahead, we believe that progress can be achieved through nontraditional strategies, as highlighted in the Regulating Wage Theft report. This includes collaborating with workers and community groups to address the flaws in the current system. Additionally, there is a clear need to create protections for workers who are more vulnerable to labor exploitation by implementing stronger employer regulations.
 
 
-**Bibliography**
+**Bibliography:books:**
 
 [Lee, Jennifer J., and Annie Smith. “Regulating Wage Theft.” *Washington Law Review*, vol. 94, no. 2, June 2019, pp. 759–822.]
 (https://scholarshare.temple.edu/bitstream/handle/20.500.12613/6755/Lee-JournalArticle-2019-.pdf?sequence=1)
