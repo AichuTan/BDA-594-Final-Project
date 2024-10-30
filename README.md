@@ -7,7 +7,10 @@
 - Eddie Rosas: Website and Video
 
 **Report link :** [here](https://sites.google.com/sdsu.edu/wagetheft/home?authuser=1)
+
 **Video link :** [here](https://www.youtube.com/watch?v=JLkuwMMDtyE)
+
+**Link to Tableau :** [here](https://public.tableau.com/views/WageTheftCasesbyEmployerLocations/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 #### 1. Problem Statement
 
