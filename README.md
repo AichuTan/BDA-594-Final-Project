@@ -1,3 +1,4 @@
+
 ## Anti-Wage Theft Data Project
 
 <img src = https://github.com/AichuTan/BDA-594-Final-Project/blob/main/cover.jpg />
@@ -123,3 +124,6 @@ Green, Llezlie L. "Wage Theft in Lawless Courts." California Law Review, vol. 10
 San Diego State University Department of Sociology, Center on Policy Initiative, and Employee Rights Center. "Confronting Wage Theft: Barriers to Claiming Unpaid Wages in San Diego." 2017.[(https://ccre.sdsu.edu/_resources/docs/reports/labor/Confronting-Wage-Theft.pdf)]
 
 "Time Series Analysis-ARIMA Model using R software: A step by step approach." *YouTube*, uploaded by Simple SPSS, 30 Mar. 2020, [(www.youtube.com/watch?v=VPhyVSJMbpA)]
+
+
+## Note : This Project is part of BDA 594 Final Project
